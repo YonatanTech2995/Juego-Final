@@ -19,9 +19,9 @@ namespace Juego_Final.Modelos
             barraVida.Value -= 10; //se decrementa la vida del heroe cada vez que el villano ataca
         }
 
-        public void regenerarse()
+        public void regenerarse(ProgressBar pgbVillanovida)
         {
-            //pgbVidaVillano.Value += 10; //se incrementa la voda cada cierto tiempo 
+            pgbVillanovida.Value += 10; //se incrementa la voda cada cierto tiempo 
         }
     }
 }

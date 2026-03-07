@@ -22,6 +22,7 @@ namespace Juego_Final
         public MainWindow()
         {
             InitializeComponent();  
+
         }
 
     }
