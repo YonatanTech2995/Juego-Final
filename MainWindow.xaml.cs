@@ -20,10 +20,10 @@ namespace Juego_Final
     /// </summary>
     public partial class MainWindow : Window
     {
-        string cadena;
+        string prueba;
         public MainWindow()
         {
             InitializeComponent();
         }//fin del constructor
-    }
-}
+    }//fin de la clase
+}//fin de la namespace
