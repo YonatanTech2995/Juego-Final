@@ -20,7 +20,7 @@ namespace Juego_Final
     /// </summary>
     public partial class MainWindow : Window
     {
-        string prueba;
+        string prueba = "somos los más mejores";
         public MainWindow()
         {
             InitializeComponent();
