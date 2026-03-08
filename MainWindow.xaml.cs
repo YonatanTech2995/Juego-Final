@@ -20,6 +20,7 @@ namespace Juego_Final
     /// </summary>
     public partial class MainWindow : Window
     {
+        string cadena;
         public MainWindow()
         {
             InitializeComponent();
