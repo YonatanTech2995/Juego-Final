@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -24,6 +25,8 @@ namespace Juego_Final
         public MainWindow()
         {
             InitializeComponent();
+            Image yon = new Image();
+            yon.Source = new BitmapImage(new Uri ( "imagenes,yonatan.png",UriKind.Relative));
         }//fin del constructor
     }//fin de la clase
 }//fin de la namespace
